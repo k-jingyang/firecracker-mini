@@ -85,7 +85,7 @@ root@ubuntu-fc-uvm:~# ip a
 
 In another terminal, on your host
 ```bash
-❯ ping 172.16.0.7
+$ ping 172.16.0.7
 PING 172.16.0.7 (172.16.0.7) 56(84) bytes of data.
 64 bytes from 172.16.0.7: icmp_seq=1 ttl=127 time=0.273 ms
 64 bytes from 172.16.0.7: icmp_seq=2 ttl=127 time=0.207 ms
