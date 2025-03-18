@@ -24,7 +24,7 @@
 
 ```bash
 $ firecracker --version
-Firecracker v1.10.1
+Firecracker v1.11.0
 
 # From https://github.com/firecracker-microvm/firecracker/blob/main/docs/getting-started.md
 $ latest=$(wget "http://spec.ccfc.min.s3.amazonaws.com/?prefix=firecracker-ci/v1.11/x86_64/vmlinux-5.10&list-type=2" -O - 2>/dev/null | grep -oP "(?<=<Key>)(firecracker-ci/v1.11/x86_64/vmlinux-5\.10\.[0-9]{1,3})(?=</Key>)")
